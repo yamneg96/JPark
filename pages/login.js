@@ -171,6 +171,13 @@ export default function Login() {
                 </Link>
               </span>
             </div>
+            <div className='text-center'>
+              <span className="text-sm text-gray-600">
+                Read the <Link href="https://terms.com" className="font-medium text-primary-600 hover:text-primary-500">
+                 terms and Agreements
+                </Link> here.
+              </span>
+            </div>
           </div>
         </motion.div>
       </div>

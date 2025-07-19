@@ -151,7 +151,6 @@ export default function Register() {
                   <option value="">Select your role</option>
                   <option value="client">Client (I need to hire)</option>
                   <option value="worker">Worker (I want to work)</option>
-                  <option value="admin">Admin</option>
                 </select>
                 <UserCircle className="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />
               </div>
@@ -253,6 +252,13 @@ export default function Register() {
                 <Link href="/login" className="font-medium text-primary-600 hover:text-primary-500">
                   Sign in
                 </Link>
+              </span>
+            </div>
+            <div className='text-center'>
+              <span className="text-sm text-gray-600">
+                Read the <Link href="https://terms.com" className="font-medium text-primary-600 hover:text-primary-500">
+                 terms and Agreements
+                </Link> here.
               </span>
             </div>
           </div>

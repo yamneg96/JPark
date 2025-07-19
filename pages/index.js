@@ -47,7 +47,7 @@ export default function Home() {
   const pricingPlans = [
     {
       name: "Basic",
-      price: "$19",
+      price: "ETB50",
       period: "per month",
       features: [
         "Post up to 5 jobs",
@@ -59,7 +59,7 @@ export default function Home() {
     },
     {
       name: "Professional",
-      price: "$49",
+      price: "ETB100",
       period: "per month",
       features: [
         "Post unlimited jobs",
@@ -73,7 +73,7 @@ export default function Home() {
     },
     {
       name: "Enterprise",
-      price: "$99",
+      price: "ETB150",
       period: "per month",
       features: [
         "Everything in Professional",
@@ -302,7 +302,7 @@ export default function Home() {
                       ? 'bg-primary-600 text-white hover:bg-primary-700'
                       : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
                   }`}>
-                    Get Started
+                    <a href='/register'> Get Started </a>
                   </button>
                 </div>
               </motion.div>
