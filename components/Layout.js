@@ -224,7 +224,7 @@ export default function Layout({ children }) {
           <div>
             <h3 className="font-semibold text-white mb-3">Navigation</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:underline">Home</a></li>
+              <li><a href="/" className="hover:underline">Home</a></li>
               <li><a href="/register" className="hover:underline">Register</a></li>
               <li><a href="/login" className="hover:underline">Login</a></li>
             </ul>
